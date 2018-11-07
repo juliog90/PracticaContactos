@@ -1,0 +1,70 @@
+* { 
+    font-family: arial; 
+}
+body, html { 
+    height: 100%;
+    margin: 0px; 
+    background: #FAFAFA;
+}
+header {
+    position: relative; float : left;
+    width: 100%; height:50px; 
+    background: #0D47A1;
+}
+#menuicon {
+    position: relative; float : left;
+    margin: 10px;
+}
+#headertext {
+    position: relative; float : left;
+    font-size: 18pt; 
+    color: #FFF;
+    margin: 10px auto auto 10px;
+}
+#content {
+    position: relative; float: left;
+    width: 100%; height: calc(100% - 50px);
+}
+#content table {
+	width:100%;
+	border-spacing:1px;
+	background:#DDD;
+}
+#content table th {
+	background:#D5D5D5;
+	color:#555;
+	font-size:12pt;
+	text-align:center;
+	vertical-align:middle;
+	height:40px;
+}
+#content table td {
+	font-size:12pt;
+	text-align:center;
+	vertical-align:middle;
+	height:50px;
+}
+.hour {
+	color:#777;
+	background:#EEE;
+}
+.empty {
+	color:#FFF;
+	background:#FFF;
+}
+.primarybutton {
+	position:relative;
+	float:center;
+	width:40%;
+	margin:10px auto auto 30%;
+	padding:10px 0px 10px 0px;
+	border:0px;
+	border-radius:10px;
+	font-size:14pt;
+	color:#FFF;
+	background:#689F38;
+	cursor:pointer;
+}
+.primarybutton:hover {
+	background:#7CB342;
+}
